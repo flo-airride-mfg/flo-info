@@ -5815,6 +5815,21 @@ button.close {
   src: url("/Fonts/bonvenocf-light-webfont.eot?#iefix") format("embedded-opentype"), url("/Fonts/bonvenocf-light-webfont.woff2") format("woff2"), url("/Fonts/bonvenocf-light-webfont.woff") format("woff"), url("/Fonts/bonvenocf-light-webfont.ttf") format("truetype"), url("/Fonts/bonvenocf-light-webfont.svg#bonvenocflight") format("svg");
   font-weight: normal;
   font-style: normal; }
+.button {
+  font-family: "bonvenocflight";
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 0; }
+
+.button:hover, .button:active {
+  font-family: "bonvenocflight";
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  border-radius: 0;
+  border: none; }
+
 .tagline {
   font-size: 15px; }
 
@@ -5834,6 +5849,14 @@ button.close {
 .headline h1 img {
   width: 45%;
   padding-bottom: 30px; }
+
+.custom-modal {
+  background: #242424;
+  /* for IE */
+  background: rgba(36, 36, 36, 0.85); }
+
+.custom-modal h4 {
+  color: white; }
 
 html,
 body {
@@ -5855,15 +5878,6 @@ h4,
 h5,
 h6 {
   font-family: 'bonvenocflight'; }
-
-section {
-  padding: 100px 0; }
-
-aside {
-  padding: 50px 0; }
-
-.no-padding {
-  padding: 0; }
 
 .navbar-default {
   background-color: white;
